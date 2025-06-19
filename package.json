@@ -1,0 +1,20 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "ZappWay Documentation",
+  "scripts": {
+    "dev": "mintlify dev --port 3333",
+    "check": "mintlify broken-links"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZappWay/ZappWay.git"
+  },
+  "homepage": "https://github.com/ZappWay/ZappWay#readme",
+  "dependencies": {
+    "@types/react": "^18.3.20",
+    "mintlify": "^4.0.472",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}

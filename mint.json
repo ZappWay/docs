@@ -1,0 +1,221 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "ZappWay - Connect custom data to large language models",
+  "theme": "venus",
+  "logo": {
+    "dark": "/logo/dark.png",
+    "light": "/logo/light.png"
+  },
+  "favicon": "/favicon.png",
+  "colors": {
+    "primary": "#009a7e",
+    "light": "#009a7e",
+    "dark": "#009a7e"
+  },
+  "modeToggle": {
+    "default": "dark",
+    "isHidden": false
+  },
+  "background": {
+    "style": "gradient"
+  },
+  "topbar": {
+    "style": "gradient"
+  },
+  "topbarLinks": [],
+  "topbarCtaButton": {
+    "name": "⚡️Start for Free",
+    "url": "https://zappway.ai/"
+  },
+  "anchors": [
+    {
+      "name": "AI Employee",
+      "icon": "headset",
+      "iconType": "solid",
+      "url": "agent"
+    },
+    {
+      "name": "Datastore",
+      "icon": "database",
+      "iconType": "duotone",
+      "url": "datastore"
+    },
+    {
+      "name": "Form",
+      "icon": "table-list",
+      "url": "form"
+    },
+    {
+      "name": "Email Inbox",
+      "icon": "at",
+      "url": "email-inbox"
+    },
+    {
+      "name": "Integrations",
+      "icon": "puzzle-piece",
+      "url": "integrations"
+    },
+    {
+      "name": "Widgets",
+      "icon": "html5",
+      "url": "widgets"
+    },
+    {
+      "name": "API",
+      "icon": "rectangle-terminal",
+      "url": "api-reference"
+    },
+    {
+      "name": "Privacy",
+      "icon": "shield-halved",
+      "url": "privacy"
+    },
+    {
+      "name": "support@zappway.ai",
+      "icon": "comment-question",
+      "url": "mailto:support@zappway.ai"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "🔗 Overview",
+      "pages": ["introduction", "platform"]
+    },
+    {
+      "group": "🤖 AI Employee",
+      "icon": "headset",
+      "iconType": "duotone",
+      "pages": [
+        "agent/get-started",
+        {
+          "group": "Tools",
+          "pages": [
+            "agent/tools/quick-start",
+            "agent/tools/datastore-tool",
+            "agent/tools/http-tool",
+            "agent/tools/form-tool",
+            "agent/tools/request-human-tool",
+            "agent/tools/mark-as-resolved-tool",
+            "agent/tools/lead-generation-tool"
+          ]
+        },
+        "agent/human-handoff",
+        "agent/fine-tuning",
+        "agent/conversation-file-upload",
+        "agent/answer-sources",
+        "agent/message-suggestions",
+        "agent/optimize-ai-answers",
+        "agent/rate-limit",
+        "agent/debug"
+      ]
+    },
+    {
+      "group": "💾 Datastore",
+      "icon": "database",
+      "iconType": "duotone",
+      "pages": ["datastore/get-started"]
+    },
+    {
+      "group": "Form",
+      "pages": ["form/get-started"]
+    },
+    {
+      "group": "Email Inbox",
+      "pages": [
+        "email-inbox/get-started",
+        {
+          "group": "Setup",
+          "pages": ["email-inbox/gmail"]
+        }
+      ]
+    },
+    {
+      "group": "Integrations",
+      "pages": [
+        {
+          "group": "🧠 Train With",
+          "pages": ["integrations/google-drive"]
+        },
+        {
+          "group": "🚀 Install On",
+          "pages": [
+            "integrations/whatsapp",
+            "integrations/crisp",
+            "integrations/telegram"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "zappway API",
+      "pages": ["api-reference/authentication"]
+    },
+    {
+      "group": "Widgets",
+      "pages": [
+        {
+          "group": "Chatbot",
+          "pages": [
+            "widgets/chatbot/bubble",
+            "widgets/chatbot/standard",
+            "widgets/chatbot/reference"
+          ]
+        },
+        {
+          "group": "Form",
+          "pages": [
+            "widgets/form/hosted-form",
+            "widgets/form/standard",
+            "widgets/form/usage-with-chatbot",
+            "widgets/form/fields",
+            "widgets/form/reference"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Endpoints",
+      "pages": [
+        "api-reference/endpoint/agents/query",
+        "api-reference/endpoint/agents/create",
+        "api-reference/endpoint/agents/get",
+        "api-reference/endpoint/agents/update",
+        "api-reference/endpoint/agents/delete",
+        "api-reference/endpoint/datasources/create",
+        "api-reference/endpoint/datasources/get",
+        "api-reference/endpoint/datasources/delete",
+        "api-reference/endpoint/datastores/query",
+        "api-reference/endpoint/datastores/create",
+        "api-reference/endpoint/datastores/get",
+        "api-reference/endpoint/datastores/update",
+        "api-reference/endpoint/datastores/delete",
+        "api-reference/endpoint/datastores/upsert",
+        "api-reference/endpoint/datasources/update",
+        "api-reference/endpoint/datastores/file-upload"
+      ]
+    },
+    {
+      "group": "External Integrations",
+      "pages": ["integrations/langchain"]
+    },
+    {
+      "group": "Privacy",
+      "pages": [
+        "privacy/gdpr",
+        "privacy/cookie-policy",
+        "privacy/privacy-policy",
+        "privacy/terms"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "twitter": "https://x.com/zappway",
+    "discord": "https://discord.gg/Kd8jUnz",
+    "github": "https://github.com/ZappWay/ZappWay"
+  },
+  "feedback": {
+    "thumbsRating": true,
+    "suggestEdit": true,
+    "raiseIssue": true
+  }
+}
